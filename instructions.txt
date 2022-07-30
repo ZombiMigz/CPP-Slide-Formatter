@@ -1,0 +1,6 @@
+1. Install Python (https://www.python.org/downloads/)
+2. Install all libraries using "pip install requirements.txt"
+3. Edit settings in makeSlides.py as necessary
+4. For each image, rename it to the text you want added
+5. Run script using "py makeSlides.py"
+6. Processed images should output in the /out folder
