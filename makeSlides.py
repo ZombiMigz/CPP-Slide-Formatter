@@ -114,7 +114,7 @@ def add_text(images: list[str]):
         # get font
         font = ImageFont.truetype(PATH_FONT, FONT_SIZE)
         # get text
-        text = os.path.splitext(imagePath)[0].removeprefix("out\\")
+        text = os.path.splitext(imagePath)[0].removeprefix("out" + os.sep)
         # get wrapped text
         wrapped_text = get_wrapped_text(text, font, IMG_WIDTH*.75)
 
