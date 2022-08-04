@@ -147,6 +147,8 @@ def add_text(images: list[str]):
         # save to out
         image.save(imagePath)
 
+# define main program function
+
 
 def main():
     input = get_images()
@@ -157,4 +159,5 @@ def main():
         add_text(out)
 
 
+# run program
 main()
